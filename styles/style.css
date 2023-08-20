@@ -1,17 +1,18 @@
 .header {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  display: grid;
+  align-content: center;
   background-color: #fff;
   height: 105px;
   font-size: 18px;
   line-height: normal;
-  margin: 92px 49px 96px 51px;
+  width: 1440px;
+  height: 109px;
+  padding: 92px 49px 96px 51px;
 }
 .container {
   max-width: 1340px;
-  padding: 0 15px;
-  margin: 92px 49px 96px 51px;
+  
+  
 }
 .header__menu {
   display: flex;
@@ -33,32 +34,40 @@
 .header__logo {
   display: block;
   margin: auto;
+  width: 148px;
 }
 
 .header__logo-image {
-  display: inline;
-  width: 148px;
+ width:  100%;
+  
 }
 .header__address {
   line-height: 24.3px;
-}
-.overlay {
-  opacity: 0.6;
-  background: #000;
-  z-index: -1;
-
-  
 }
 .cover {
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1440px;
   position: relative;
-}
-.cover_title {
+  z-index: 1;
+   min-height: 757px;
+  width: 1440px;
+  padding: 96px 0 180px;
 
+}
+.overlay {
+  width: 1440px;
+  opacity: 0.6;
+  background: #000;
+  z-index: -1;
+  position: absolute;
+  inset: 0;
+
+}
+
+.cover_title {
+  
   color: #fff;
   font-size: 100px;
   font-style: normal;
@@ -69,8 +78,8 @@
 
 }
 .aligned-text {
-  display: flex;
-  margin: 165px 50px;
+  display: block;
+  margin: auto;
 }
 .aligned-text_center {
   display: flex;
@@ -98,7 +107,6 @@
   text-transform: uppercase;
 }
 .letter-spacing-extended {
-  display: flex;
   align-items: center;
   word-spacing: 1rem;
 }
@@ -109,16 +117,26 @@
   
 }
 .bet-button {
+  background-color: rgb(28,28,28,0);
   text-decoration: none;
   font-size: 22px;
   line-height: normal;
   height: 28px;
   border: 1px solid #fff;
   cursor: pointer;
+  color: #fff;
+  width: 257px;
+  height: 52px;
+  position: relative;
+  z-index: 1;
 }
 .lots {
-  width: 1340px;
+  width: 1440px;
   display: flex;
+  flex-direction: column;
+  height: 579px;
+  margin: auto;
+  padding: 180px 50px 181px 50px;
 }
 .lots__heading{
   margin-bottom: 27px;
@@ -180,6 +198,8 @@
   background-size: cover;
 }
 .about {
+  padding: 181px 50px 180px 50px;
 }
 .footer {
+  padding: 180px 50px 90px;
 }
