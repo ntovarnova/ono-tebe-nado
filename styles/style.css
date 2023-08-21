@@ -1,4 +1,4 @@
-ul{
+ul {
   margin: 0;
   padding: 0;
 }
@@ -8,7 +8,7 @@ ul{
   width: 1340px;
   margin: 92px 49px 92px 51px;
   max-height: 109px;
-} 
+}
 
 .header__menu {
   display: flex;
@@ -23,7 +23,7 @@ ul{
 .header__links-list-item {
   padding-right: 32px;
 }
-.header__link{
+.header__link {
   font-size: 18px;
 }
 .header__links-list-item_no-bullit {
@@ -37,8 +37,7 @@ ul{
 }
 
 .header__logo-image {
- width:  100%;
-  
+  width: 100%;
 }
 .header__address {
   line-height: 24.3px;
@@ -54,13 +53,13 @@ ul{
   width: 1440px;
   margin: 0 0 180px;
 }
-.overlay { 
+.overlay {
   opacity: 0.6;
   background: #000;
   z-index: -1;
   position: absolute;
   inset: 0;
- }
+}
 .cover_title {
   display: flex;
   flex-direction: column;
@@ -71,14 +70,12 @@ ul{
   line-height: 115%;
   letter-spacing: 30px;
   text-transform: uppercase;
-
 }
 .aligned-text {
   width: 1340px;
   height: 115px;
   display: block;
   margin: 165px 50px 20px;
-  
 }
 .aligned-text_center {
   display: flex;
@@ -86,18 +83,15 @@ ul{
   margin: 0 110px 20px 50px;
   width: 1280px;
   height: 100px;
-  
-  
 }
 .aligned-text_right {
   width: 1340px;
   height: 100px;
   display: flex;
   justify-content: flex-end;
-  margin:  0 50px 135px;
+  margin: 0 50px 135px;
   text-align: right;
   letter-spacing: 60px;
-  
 }
 
 .cover__description {
@@ -115,7 +109,7 @@ ul{
   margin: 0 50px 0 0;
   display: inline;
   padding: 12px 32px;
-  background-color: rgb(28,28,28,0);
+  background-color: rgb(28, 28, 28, 0);
   text-decoration: none;
   font-size: 22px;
   line-height: normal;
@@ -129,7 +123,7 @@ ul{
   width: 257px;
   height: 52px;
 }
-.cover__description-text{
+.cover__description-text {
   word-spacing: 1rem;
   margin: 0 0 62px 422px;
 }
@@ -141,7 +135,6 @@ ul{
   color: #fff;
   text-transform: uppercase;
   background: transparent;
-  
 }
 
 .lots {
@@ -151,10 +144,10 @@ ul{
   height: 579px;
   margin: 0 50px 181px 50px;
 }
-.lots__heading{
+.lots__heading {
   margin: 0 1179px 27px 40px;
 }
-.lots__card-list{
+.lots__card-list {
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -163,9 +156,9 @@ ul{
   position: relative;
   flex-grow: 1;
 }
-.lots__card-list-item{
+.lots__card-list-item {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 .card_type_film {
@@ -180,7 +173,8 @@ ul{
   z-index: 2;
 }
 
-.card__title,.card-link{
+.card__title,
+.card-link {
   padding: 50px 40px 0 40px;
   text-align: start;
   color: #fff;
@@ -201,17 +195,20 @@ ul{
   font-style: normal;
   font-weight: 400;
   line-height: 120%; /* 24px */
-} 
-.card__title,.card-link h3{
- margin-bottom: 202px;
 }
-.card__title,.card-link h4{
+.card__title,
+.card-link h3 {
+  margin-bottom: 202px;
+}
+.card__title,
+.card-link h4 {
   margin-bottom: 30px;
 }
-.card__title,.card-link h5{
+.card__title,
+.card-link h5 {
   margin-bottom: 84px;
 }
- .card_type_book{
+.card_type_book {
   display: block;
   margin: 0 0px 55px 0;
   background-image: url(../images/card-lot-02.jpg);
@@ -221,9 +218,8 @@ ul{
   background-size: cover;
   position: relative;
   z-index: 2;
-  
 }
-.card__type_picture{
+.card__type_picture {
   display: block;
   margin: 0;
   background-image: url(../images/card-lot-03.jpg);
@@ -234,46 +230,43 @@ ul{
   position: relative;
   z-index: 2;
 }
-.lots__look-more-link{
-margin: 30px 1108px 2px 0;
+.lots__look-more-link {
+  margin: 30px 1108px 2px 0;
 }
 .about {
-width: 1340px;
-height: 487px;
-padding: 181px 50px 180px 50px;
+  width: 1340px;
+  height: 487px;
+  padding: 181px 50px 180px 50px;
 }
-.about__column{
-display: grid;
-width: 885px;
-height: 119px;
-margin: 100px 0 1px 455px;
+.about__column {
+  display: grid;
+  width: 885px;
+  height: 119px;
+  margin: 100px 0 1px 455px;
 }
-.about__title{
-margin: 0 0 100px;
-text-transform: uppercase;
-text-align: center;
-color: #000;
-font-size: 40px;
-line-height: normal;
-font-weight: 700;
+.about__title {
+  margin: 0 0 100px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  font-size: 40px;
+  line-height: normal;
+  font-weight: 700;
 }
-.about__text p{
+.about__text p {
   max-width: 885px;
   margin: 0 0 25px;
-
 }
 
-.about__logo{
+.about__logo {
   display: grid;
   align-content: center;
   background-color: #000;
   width: 430px;
   height: 240px;
   padding: 0 95px 0 95px;
-
-
 }
-.about__logo-image{
+.about__logo-image {
   width: 240px;
   height: 240px;
   padding: 63px 46px;
