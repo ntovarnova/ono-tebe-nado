@@ -1,3 +1,6 @@
+body{
+  max-width: 1440px;
+}
 ul {
   margin: 0;
   padding: 0;
@@ -12,26 +15,34 @@ ul {
 
 .header__menu {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   margin: auto;
   align-items: center;
 }
 .header__links-list {
+  list-style-type: circle;
   display: flex;
-  gap: 32px;
+  gap: 12px;
 }
 .header__links-list-item {
-  padding-right: 32px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 .header__link {
+  color: #000;
   font-size: 18px;
+  text-align: center;
+  font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 .header__links-list-item_no-bullit {
   text-decoration: none;
   list-style-type: none;
 }
 .header__logo {
-  display: block;
   margin: auto;
   width: 148px;
 }
@@ -67,7 +78,6 @@ ul {
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
-  line-height: 115%;
   letter-spacing: 30px;
   text-transform: uppercase;
 }
@@ -76,6 +86,7 @@ ul {
   height: 115px;
   display: block;
   margin: 165px 50px 20px;
+  line-height: 115%;
 }
 .aligned-text_center {
   display: flex;
@@ -83,6 +94,7 @@ ul {
   margin: 0 110px 20px 50px;
   width: 1280px;
   height: 100px;
+  line-height: 100%; 
 }
 .aligned-text_right {
   width: 1340px;
@@ -92,6 +104,7 @@ ul {
   margin: 0 50px 135px;
   text-align: right;
   letter-spacing: 60px;
+  line-height: 100%; 
 }
 
 .cover__description {
@@ -146,6 +159,13 @@ ul {
 }
 .lots__heading {
   margin: 0 1179px 27px 40px;
+  color: #000;
+font-family: Raleway;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
 }
 .lots__card-list {
   display: flex;
@@ -182,12 +202,12 @@ ul {
 .card__text {
   padding: 0 40px 50px 40px;
   text-align: start;
-  color: #fff;
-  font-family: Raleway;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 120%; /* 24px */
+  color: #FFF;
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 24px */
 }
 h3.card__title {
   margin: 50px 40px 202px 40px;
@@ -271,5 +291,34 @@ h5.card__title {
 
 
 .footer {
-  margin: 180px 50px 90px;
+  width: 1440px;
+  margin: 0 50px 90px 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  
+  align-items: center;
+} 
+
+
+.footer__menu-list{
+  text-align: center;
+  list-style-type: none;
+}
+.footer__menu-link_active{
+  list-style-type: none;
+  text-decoration: none;
+}
+.footer__social-list-item{
+  
+} 
+.footer__social-list{
+  
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+.footer__social-icon{
+  height: 48px;
+
 }
