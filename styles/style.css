@@ -6,7 +6,8 @@ ul {
   padding: 0;
 }
 .header {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   width: 1340px;
   height: 109px;
@@ -53,7 +54,8 @@ ul {
   width: 105;
 }
 
-.header__address {
+.header__address { 
+  display: flex;
   line-height: 24.3px;
 }
 .cover {
