@@ -210,6 +210,7 @@
 }
 
 .lots__card-list-item {
+  display: flex;
   flex-grow: 1;
 }
 
@@ -250,6 +251,7 @@
 }
 
 .card__title {
+  text-decoration: underline;
   flex-shrink: 0;
   text-align: start;
   color: #fff;
