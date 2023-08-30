@@ -109,7 +109,7 @@
 
 .aligned-text_center {
   max-width: 1280px;
-  margin-left: 45px;
+
   line-height: 100%;
   text-align: center;
   align-self: center;
@@ -124,6 +124,7 @@
   text-align: right;
   line-height: 100%;
   align-self: end;
+  margin-right: 50px;
 }
 
 .letter-spacing-extended {
@@ -171,6 +172,7 @@
   flex-shrink: 0;
   text-transform: uppercase;
   font-weight: 400;
+  margin-right: 50px;
 }
 
 .lots {
@@ -353,7 +355,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-left: 40px;
 }
 
 .footer__menu-list {
@@ -372,6 +373,7 @@
   justify-self: end;
   gap: 50px;
   max-width: 240px;
+  margin-right: 50px;
 }
 
 .footer__social-icon {
